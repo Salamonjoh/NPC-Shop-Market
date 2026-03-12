@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <EntityComponents>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>EconomySurvivalStoreBlock</SubtypeId>
+            </Id>
+            <Size x="100" y="100" z="100" />
+        </EntityComponent>
+
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>NPC_Shop_Market_Merchant_Standing</SubtypeId>
+            </Id>
+            <Size x="100" y="100" z="100" />
+        </EntityComponent>
+
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>NPC_Shop_Market_Merchant_Desk</SubtypeId>
+            </Id>
+            <Size x="100" y="100" z="100" />
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>NPC_Shop_Market_Store_Standing_Small</SubtypeId>
+            </Id>
+            <Size x="100" y="100" z="100" />
+        </EntityComponent>
+ 
+    </EntityComponents>
+</Definitions>

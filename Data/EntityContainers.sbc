@@ -1,0 +1,476 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <EntityContainers>
+
+        <Container>
+            <Id>
+                <TypeId>StoreBlock</TypeId>
+                <SubtypeId>EconomySurvivalStoreBlock</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="EconomySurvivalStoreBlock" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+		
+		<Container>
+            <Id>
+                <TypeId>StoreBlock</TypeId>
+                <SubtypeId>NPC_Shop_Market_Desk</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="NPC_Shop_Market_Desk" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+		
+		<Container>
+            <Id>
+                <TypeId>StoreBlock</TypeId>
+                <SubtypeId>NPC_Shop_Market_DeskCorner</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="NPC_Shop_Market_DeskCorner" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+		
+		<Container>
+            <Id>
+                <TypeId>StoreBlock</TypeId>
+                <SubtypeId>NPC_Shop_Market_Couch</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="NPC_Shop_Market_Couch" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+		
+		<Container>
+            <Id>
+                <TypeId>StoreBlock</TypeId>
+                <SubtypeId>NPC_Shop_Market_CouchCorner</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="NPC_Shop_Market_CouchCorner" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+		
+		<Container>
+            <Id>
+                <TypeId>StoreBlock</TypeId>
+                <SubtypeId>NPC_Shop_Market_PassengerSeat</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="NPC_Shop_Market_PassengerSeat" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+		
+		<Container>
+            <Id>
+                <TypeId>StoreBlock</TypeId>
+                <SubtypeId>NPC_Shop_Market_Standing_Wall</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="NPC_Shop_Market_Standing_Wall" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+
+        <Container>
+            <Id>
+                <TypeId>StoreBlock</TypeId>
+                <SubtypeId>NPC_Shop_Market_Standing_Akimbo</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="NPC_Shop_Market_Standing_Akimbo" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        
+        <Container>
+            <Id>
+                <TypeId>StoreBlock</TypeId>
+                <SubtypeId>NPC_Shop_Market_Standing_ArmPad</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="NPC_Shop_Market_Standing_ArmPad" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        
+        <Container>
+            <Id>
+                <TypeId>StoreBlock</TypeId>
+                <SubtypeId>NPC_Shop_Market_ControlSeat</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="NPC_Shop_Market_ControlSeat" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        
+        <Container>
+            <Id>
+                <TypeId>StoreBlock</TypeId>
+                <SubtypeId>NPC_Shop_Market_Standing_Normal</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="NPC_Shop_Market_Standing_Normal" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        
+        <Container>
+            <Id>
+                <TypeId>StoreBlock</TypeId>
+                <SubtypeId>NPC_Shop_Market_Standing_Salute</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="NPC_Shop_Market_Standing_Salute" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        
+        <Container>
+            <Id>
+                <TypeId>StoreBlock</TypeId>
+                <SubtypeId>NPC_Shop_Market_Standing_Console</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="NPC_Shop_Market_Standing_Console" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        
+        <Container>
+            <Id>
+                <TypeId>StoreBlock</TypeId>
+                <SubtypeId>NPC_Shop_Market_Standing_Console_Offset</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="NPC_Shop_Market_Standing_Console_Offset" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+
+        <Container>
+            <Id>
+                <TypeId>StoreBlock</TypeId>
+                <SubtypeId>NPC_Shop_Market_Standing_ArmPad_Offset</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="NPC_Shop_Market_Standing_ArmPad_Offset" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        
+        <Container>
+            <Id>
+                <TypeId>StoreBlock</TypeId>
+                <SubtypeId>NPC_Shop_Market_Bed_Lying</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="NPC_Shop_Market_Bed_Lying" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        
+        <Container>
+            <Id>
+                <TypeId>StoreBlock</TypeId>
+                <SubtypeId>NPC_Shop_Market_Bed_Sitting</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="NPC_Shop_Market_Bed_Sitting" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        
+        <Container>
+            <Id>
+                <TypeId>StoreBlock</TypeId>
+                <SubtypeId>NPC_Shop_Market_Standing_Rifle</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="NPC_Shop_Market_Standing_Rifle" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        
+        <Container>
+            <Id>
+                <TypeId>StoreBlock</TypeId>
+                <SubtypeId>NPC_Shop_Market_Merchant_Standing</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="NPC_Shop_Market_Merchant_Standing" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        
+        <Container>
+            <Id>
+                <TypeId>StoreBlock</TypeId>
+                <SubtypeId>NPC_Shop_Market_Merchant_Desk</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="NPC_Shop_Market_Merchant_Desk" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        
+        <Container>
+            <Id>
+                <TypeId>StoreBlock</TypeId>
+                <SubtypeId>NPC_Shop_Market_Standing_LeaningDesk</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="NPC_Shop_Market_Standing_LeaningDesk" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        
+        <Container>
+            <Id>
+                <TypeId>StoreBlock</TypeId>
+                <SubtypeId>NPC_Shop_Market_Standing_LeaningDesk_Offset</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="NPC_Shop_Market_Standing_LeaningDesk_Offset" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        
+        <Container>
+            <Id>
+                <TypeId>StoreBlock</TypeId>
+                <SubtypeId>NPC_Shop_Market_Standing_LeaningRailing</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="NPC_Shop_Market_Standing_LeaningRailing" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        
+        <Container>
+            <Id>
+                <TypeId>StoreBlock</TypeId>
+                <SubtypeId>NPC_Shop_Market_F_Standing_Normal</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="NPC_Shop_Market_F_Standing_Normal" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        
+        <Container>
+            <Id>
+                <TypeId>StoreBlock</TypeId>
+                <SubtypeId>NPC_Shop_Market_F_Standing_Cup</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="NPC_Shop_Market_F_Standing_Cup" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+
+        <Container>
+            <Id>
+                <TypeId>StoreBlock</TypeId>
+                <SubtypeId>NPC_Shop_Market_F_Desk</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="NPC_Shop_Market_F_Desk" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+
+        <Container>
+            <Id>
+                <TypeId>StoreBlock</TypeId>
+                <SubtypeId>NPC_Shop_Market_F_DeskCorner</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="NPC_Shop_Market_F_DeskCorner" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        
+        <Container>
+            <Id>
+                <TypeId>StoreBlock</TypeId>
+                <SubtypeId>NPC_Shop_Market_F_PassengerSeat</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="NPC_Shop_Market_F_PassengerSeat" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+
+        <Container>
+            <Id>
+                <TypeId>StoreBlock</TypeId>
+                <SubtypeId>NPC_Shop_Market_F_Couch</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="NPC_Shop_Market_F_Couch" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+
+        <Container>
+            <Id>
+                <TypeId>StoreBlock</TypeId>
+                <SubtypeId>NPC_Shop_Market_F_CouchCorner</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="NPC_Shop_Market_F_CouchCorner" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        
+        <Container>
+            <Id>
+                <TypeId>StoreBlock</TypeId>
+                <SubtypeId>NPC_Shop_Market_Standing_Normal_Small</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="NPC_Shop_Market_Standing_Normal_Small" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        
+        <Container>
+            <Id>
+                <TypeId>StoreBlock</TypeId>
+                <SubtypeId>NPC_Shop_Market_Standing_Wall_Small</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="NPC_Shop_Market_Standing_Wall_Small" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        
+        <Container>
+            <Id>
+                <TypeId>StoreBlock</TypeId>
+                <SubtypeId>NPC_Shop_Market_Standing_Akimbo_Small</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="NPC_Shop_Market_Standing_Akimbo_Small" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        
+        <Container>
+            <Id>
+                <TypeId>StoreBlock</TypeId>
+                <SubtypeId>NPC_Shop_Market_Standing_ArmPad_Small</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="NPC_Shop_Market_Standing_ArmPad_Small" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        
+        <Container>
+            <Id>
+                <TypeId>StoreBlock</TypeId>
+                <SubtypeId>NPC_Shop_Market_Standing_Salute_Small</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="NPC_Shop_Market_Standing_Salute_Small" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        
+        <Container>
+            <Id>
+                <TypeId>StoreBlock</TypeId>
+                <SubtypeId>NPC_Shop_Market_Standing_Console_Small_R</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="NPC_Shop_Market_Standing_Console_Small_R" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        
+        <Container>
+            <Id>
+                <TypeId>StoreBlock</TypeId>
+                <SubtypeId>NPC_Shop_Market_Standing_Console_Small_L</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="NPC_Shop_Market_Standing_Console_Small_L" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        
+        <Container>
+            <Id>
+                <TypeId>StoreBlock</TypeId>
+                <SubtypeId>NPC_Shop_Market_Standing_Rifle_Small</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="NPC_Shop_Market_Standing_Rifle_Small" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        
+        <Container>
+            <Id>
+                <TypeId>StoreBlock</TypeId>
+                <SubtypeId>NPC_Shop_Market_F_Standing_Normal_Small</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="NPC_Shop_Market_F_Standing_Normal_Small" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        
+        <Container>
+            <Id>
+                <TypeId>StoreBlock</TypeId>
+                <SubtypeId>NPC_Shop_Market_F_Standing_Cup_Small</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="NPC_Shop_Market_F_Standing_Cup_Small" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        
+        <Container>
+            <Id>
+                <TypeId>StoreBlock</TypeId>
+                <SubtypeId>NPC_Shop_Market_Store_Standing_Small</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="NPC_Shop_Market_Store_Standing_Small" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        
+        <Container>
+            <Id>
+                <TypeId>StoreBlock</TypeId>
+                <SubtypeId>NPC_Shop_Market_PassengerSeat_Small</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="NPC_Shop_Market_PassengerSeat_Small" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        
+        <Container>
+            <Id>
+                <TypeId>StoreBlock</TypeId>
+                <SubtypeId>NPC_Shop_Market_PassengerSeat_Small_Offset</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="NPC_Shop_Market_PassengerSeat_Small_Offset" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        
+        <Container>
+            <Id>
+                <TypeId>StoreBlock</TypeId>
+                <SubtypeId>NPC_Shop_Market_F_PassengerSeat_Small</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="NPC_Shop_Market_F_PassengerSeat_Small" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        
+        <Container>
+            <Id>
+                <TypeId>StoreBlock</TypeId>
+                <SubtypeId>NPC_Shop_Market_F_PassengerSeat_Small_Offset</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="NPC_Shop_Market_F_PassengerSeat_Small_Offset" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        
+        <Container>
+            <Id>
+                <TypeId>StoreBlock</TypeId>
+                <SubtypeId>NPC_Shop_Market_ControlSeat_Small</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="NPC_Shop_Market_ControlSeat_Small" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        
+        <Container>
+            <Id>
+                <TypeId>StoreBlock</TypeId>
+                <SubtypeId>NPC_Shop_Market_Cryo_Small</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="NPC_Shop_Market_Cryo_Small" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        
+    </EntityContainers>
+</Definitions>

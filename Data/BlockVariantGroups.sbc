@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <BlockVariantGroups>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="NPC_SHOPS" />
+            <Icon>Textures\GUI\Icons\NPC_Dummy_Store_Standing.dds</Icon>
+            <DisplayName>DisplayName_Block_NPC_Shop_Market_Merchant_Standing</DisplayName>
+            <Description>Description_NPC_Shop_Market_Merchant_Standing</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_StoreBlock" Subtype="NPC_Shop_Market_Merchant_Standing" />
+				<Block Type="MyObjectBuilder_StoreBlock" Subtype="NPC_Shop_Market_Merchant_Desk" />
+                <Block Type="MyObjectBuilder_ContractBlock" Subtype="NPC_Shop_Market_Contracts_Crates" />
+				<Block Type="MyObjectBuilder_ContractBlock" Subtype="NPC_Shop_Market_Contracts_Standing" />
+				<Block Type="MyObjectBuilder_ContractBlock" Subtype="NPC_Shop_Market_Contracts_Desk" />
+            </Blocks>
+        </BlockVariantGroup>
+
+    </BlockVariantGroups>
+</Definitions>

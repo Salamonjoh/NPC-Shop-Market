@@ -1,0 +1,262 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<CubeBlocks>
+		<Definition xsi:type="MyObjectBuilder_StoreBlockDefinition">
+            <Id>
+                <TypeId>StoreBlock</TypeId>
+                <SubtypeId>NPC_Shop_Market_Merchant_Standing</SubtypeId>
+            </Id>
+            <DisplayName>NPC Merchant Trader Standing</DisplayName>
+            <Icon>Textures\GUI\Icons\NPC_Dummy_Store_Standing.dds</Icon>
+            <Description>An NPC Merchant Trader standing and holding a datapad. Has Store functionality. Can be connected to conveyors (except for front).</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Store_Standing\NPC_Dummies_Store_Standing.mwm</Model>
+            <Components>
+				<Component Subtype="RestrictedConstruction" Count="10" />
+                <Component Subtype="SteelPlate" Count="10" />
+                <Component Subtype="Construction" Count="5" />
+                <Component Subtype="Motor" Count="4" />
+                <Component Subtype="Display" Count="1" />
+                <Component Subtype="Computer" Count="5" />
+                <Component Subtype="SteelPlate" Count="5" />
+            </Components>
+            <CriticalComponent Subtype="RestrictedConstruction" Index="0" />
+            <ScreenAreas>
+                <ScreenArea Name="StoreScreen_01" DisplayName="DisplayName_Screen_Large" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+            </ScreenAreas>
+            <BlockPairName>NPC_Shop_Market_Merchant_Standing</BlockPairName>
+            <BuildTimeSeconds>5</BuildTimeSeconds>
+			<MaxScreenRenderDistance>120</MaxScreenRenderDistance>
+			<GuiVisible>false</GuiVisible>
+            <ResourceSinkGroup>Conveyors</ResourceSinkGroup>
+            <RequiredPowerInput>0.002</RequiredPowerInput>
+            <InventorySize>
+                <X>2.5</X>
+                <Y>2.5</Y>
+                <Z>1</Z>
+            </InventorySize>
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0.27" StartY="0.27" EndX="0.73" EndY="0.73" Default="true"/>
+            </MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="Models\Store_Standing\NPC_Dummies_Store_Standing_BS1.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Store_Standing\NPC_Dummies_Store_Standing_BS2.mwm"/>
+			</BuildProgressModels>
+			<MirroringZ>Y</MirroringZ>
+			<MirroringY>Z</MirroringY>
+			<PCU>10</PCU>
+			<IsAirTight>false</IsAirTight>
+        </Definition>
+		
+		<Definition xsi:type="MyObjectBuilder_StoreBlockDefinition">
+            <Id>
+                <TypeId>StoreBlock</TypeId>
+                <SubtypeId>NPC_Shop_Market_Merchant_Desk</SubtypeId>
+            </Id>
+            <DisplayName>NPC Merchant Trader at Desk</DisplayName>
+            <Icon>Textures\GUI\Icons\NPC_Dummy_Store_Desk.dds</Icon>
+            <Description>An NPC Merchant Trader sitting at a desk. Has Store functionality. Can be connected to conveyors (except for front).</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Store_Desk\NPC_Dummies_Store_Desk.mwm</Model>
+            <Components>
+				<Component Subtype="RestrictedConstruction" Count="10" />
+                <Component Subtype="SteelPlate" Count="20" />
+                <Component Subtype="Construction" Count="20" />
+                <Component Subtype="Motor" Count="6" />
+                <Component Subtype="Display" Count="4" />
+                <Component Subtype="Computer" Count="10" />
+                <Component Subtype="SteelPlate" Count="10" />
+            </Components>
+            <CriticalComponent Subtype="RestrictedConstruction" Index="0" />
+            <ScreenAreas>
+                <ScreenArea Name="StoreScreen_01" DisplayName="DisplayName_Screen_Large" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+            </ScreenAreas>
+            <BlockPairName>NPC_Shop_Market_Merchant_Desk</BlockPairName>
+            <BuildTimeSeconds>5</BuildTimeSeconds>
+			<MaxScreenRenderDistance>120</MaxScreenRenderDistance>
+			<GuiVisible>false</GuiVisible>
+            <ResourceSinkGroup>Conveyors</ResourceSinkGroup>
+            <RequiredPowerInput>0.002</RequiredPowerInput>
+            <InventorySize>
+                <X>2.5</X>
+                <Y>2.5</Y>
+                <Z>1</Z>
+            </InventorySize>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.0" StartY="0.31" EndX="1.0" EndY="0.69"/>
+				<MountPoint Side="Left" StartX="0.35" StartY="0.31" EndX="0.65" EndY="0.69"/>
+				<MountPoint Side="Right" StartX="0.35" StartY="0.31" EndX="0.65" EndY="0.69"/>
+				<MountPoint Side="Bottom" StartX="0.0" StartY="0.35" EndX="1.0" EndY="0.65" Default="true"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="Models\Store_Desk\NPC_Dummies_Store_Desk_BS1.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Store_Desk\NPC_Dummies_Store_Desk_BS2.mwm"/>
+			</BuildProgressModels>
+			<DLC>DecorativeBlocks</DLC>
+			<MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+			<PCU>10</PCU>
+			<IsAirTight>false</IsAirTight>
+        </Definition>
+		
+		<Definition xsi:type="MyObjectBuilder_ContractBlockDefinition">
+            <Id>
+                <TypeId>ContractBlock</TypeId>
+                <SubtypeId>NPC_Shop_Market_Contracts_Crates</SubtypeId>
+            </Id>
+            <DisplayName>NPC Merchant Contracts Giver on Crates</DisplayName>
+            <Icon>Textures\GUI\Icons\NPC_Dummy_Contracts_Crates.dds</Icon>
+            <Description>An NPC Merchant sitting on crates and waiting for contractors. Has Contracts functionality. Can be connected to conveyors (except for top and front).</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Contracts_Crates\NPC_Dummies_Contracts_Crates.mwm</Model>
+            <Components>
+				<Component Subtype="RestrictedConstruction" Count="10" />
+                <Component Subtype="SteelPlate" Count="10" />
+                <Component Subtype="Construction" Count="10" />
+                <Component Subtype="Motor" Count="6" />
+                <Component Subtype="Display" Count="4" />
+                <Component Subtype="Computer" Count="10" />
+                <Component Subtype="SteelPlate" Count="10" />
+            </Components>
+            <ScreenAreas>
+                <ScreenArea Name="StoreScreen_01" DisplayName="DisplayName_Screen_Large" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+            </ScreenAreas>
+            <CriticalComponent Subtype="RestrictedConstruction" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.5" File="Models\Contracts_Crates\NPC_Dummies_Contracts_Crates_BS1.mwm"/>
+				<Model BuildPercentUpperBound="1.0" File="Models\Contracts_Crates\NPC_Dummies_Contracts_Crates_BS2.mwm"/>
+			</BuildProgressModels>
+            <BlockPairName>NPC_Shop_Market_Contracts_Crates</BlockPairName>
+            <BuildTimeSeconds>5</BuildTimeSeconds>
+			<MaxScreenRenderDistance>120</MaxScreenRenderDistance>
+			<GuiVisible>false</GuiVisible>
+            <ResourceSinkGroup>Conveyors</ResourceSinkGroup>
+            <RequiredPowerInput>0.002</RequiredPowerInput>
+            <InventorySize>
+                <X>2.5</X>
+                <Y>2.5</Y>
+                <Z>1</Z>
+            </InventorySize>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.1" StartY="0.11" EndX="0.9" EndY="0.89" Default="true"/>
+			</MountPoints>
+			<MirroringZ>Y</MirroringZ>
+			<MirroringY>Z</MirroringY>
+			<PCU>10</PCU>
+			<IsAirTight>false</IsAirTight>
+        </Definition>
+		
+		<Definition xsi:type="MyObjectBuilder_ContractBlockDefinition">
+            <Id>
+                <TypeId>ContractBlock</TypeId>
+                <SubtypeId>NPC_Shop_Market_Contracts_Standing</SubtypeId>
+            </Id>
+            <DisplayName>NPC Merchant Contracts Giver Standing</DisplayName>
+            <Icon>Textures\GUI\Icons\NPC_Dummy_Contracts_Standing.dds</Icon>
+            <Description>An NPC Merchant trying to catch your attention. Go talk to him, perhaps he has a quest for you! Has Contracts functionality. Can be connected to conveyors (except for top and front).</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Contracts_Standing\NPC_Dummies_Contracts_Standing.mwm</Model>
+            <Components>
+				<Component Subtype="RestrictedConstruction" Count="10" />
+                <Component Subtype="SteelPlate" Count="10" />
+                <Component Subtype="Construction" Count="5" />
+                <Component Subtype="Motor" Count="6" />
+                <Component Subtype="Display" Count="4" />
+                <Component Subtype="Computer" Count="10" />
+                <Component Subtype="SteelPlate" Count="10" />
+            </Components>
+            <ScreenAreas>
+                <ScreenArea Name="StoreScreen_01" DisplayName="DisplayName_Screen_Large" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+            </ScreenAreas>
+            <CriticalComponent Subtype="RestrictedConstruction" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.5" File="Models\Contracts_Standing\NPC_Dummies_Contracts_Standing_BS1.mwm"/>
+				<Model BuildPercentUpperBound="1.0" File="Models\Contracts_Standing\NPC_Dummies_Contracts_Standing_BS2.mwm"/>
+			</BuildProgressModels>
+            <BlockPairName>NPC_Shop_Market_Contracts_Standing</BlockPairName>
+            <BuildTimeSeconds>5</BuildTimeSeconds>
+			<MaxScreenRenderDistance>120</MaxScreenRenderDistance>
+			<GuiVisible>false</GuiVisible>
+            <ResourceSinkGroup>Conveyors</ResourceSinkGroup>
+            <RequiredPowerInput>0.002</RequiredPowerInput>
+            <InventorySize>
+                <X>2.5</X>
+                <Y>2.5</Y>
+                <Z>1</Z>
+            </InventorySize>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.25" StartY="0.25" EndX="0.75" EndY="0.75"/>
+			</MountPoints>
+			<MirroringZ>Y</MirroringZ>
+			<MirroringY>Z</MirroringY>
+			<PCU>10</PCU>
+			<IsAirTight>false</IsAirTight>
+        </Definition>
+		
+		<Definition xsi:type="MyObjectBuilder_ContractBlockDefinition">
+            <Id>
+                <TypeId>ContractBlock</TypeId>
+                <SubtypeId>NPC_Shop_Market_Contracts_Desk</SubtypeId>
+            </Id>
+            <DisplayName>NPC Merchant Contracts Giver at Desk</DisplayName>
+            <Icon>Textures\GUI\Icons\NPC_Dummy_Contracts_Desk.dds</Icon>
+            <Description>An NPC Merchant sitting at a desk and waiting for contractors. Has Contracts functionality. Can be connected to conveyors (except for top and front).</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Contracts_Desk\NPC_Dummies_Contracts_Desk.mwm</Model>
+            <Components>
+				<Component Subtype="RestrictedConstruction" Count="10" />
+                <Component Subtype="SteelPlate" Count="20" />
+                <Component Subtype="Construction" Count="20" />
+                <Component Subtype="Motor" Count="6" />
+                <Component Subtype="Display" Count="4" />
+                <Component Subtype="Computer" Count="10" />
+                <Component Subtype="SteelPlate" Count="10" />
+            </Components>
+            <ScreenAreas>
+                <ScreenArea Name="StoreScreen_01" DisplayName="DisplayName_Screen_Large" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+            </ScreenAreas>
+            <CriticalComponent Subtype="RestrictedConstruction" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.5" File="Models\Contracts_Desk\NPC_Dummies_Contracts_Desk_BS1.mwm"/>
+				<Model BuildPercentUpperBound="1.0" File="Models\Contracts_Desk\NPC_Dummies_Contracts_Desk_BS2.mwm"/>
+			</BuildProgressModels>
+            <BlockPairName>NPC_Shop_Market_Contracts_Desk</BlockPairName>
+            <BuildTimeSeconds>5</BuildTimeSeconds>
+			<MaxScreenRenderDistance>120</MaxScreenRenderDistance>
+			<GuiVisible>false</GuiVisible>
+            <ResourceSinkGroup>Conveyors</ResourceSinkGroup>
+            <RequiredPowerInput>0.002</RequiredPowerInput>
+            <InventorySize>
+                <X>2.5</X>
+                <Y>2.5</Y>
+                <Z>1</Z>
+            </InventorySize>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.0" StartY="0.32" EndX="1.0" EndY="0.68"/>
+				<MountPoint Side="Left" StartX="0.36" StartY="0.32" EndX="0.64" EndY="0.68"/>
+				<MountPoint Side="Right" StartX="0.36" StartY="0.31" EndX="0.64" EndY="0.69"/>
+				<MountPoint Side="Bottom" StartX="0.0" StartY="0.21" EndX="1.0" EndY="0.79" Default="true"/>
+			</MountPoints>
+			<DLC>DecorativeBlocks</DLC>
+			<MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+			<PCU>10</PCU>
+			<IsAirTight>false</IsAirTight>
+        </Definition>
+	</CubeBlocks>
+</Definitions>

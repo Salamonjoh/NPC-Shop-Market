@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<CubeBlocks>
+		<Definition xsi:type="MyObjectBuilder_StoreBlockDefinition">
+            <Id>
+                <TypeId>StoreBlock</TypeId>
+                <SubtypeId>NPC_Shop_Market_Store_Standing_Small</SubtypeId>
+            </Id>
+            <DisplayName>NPC Merchant Trader Standing</DisplayName>
+            <Icon>Textures\GUI\Icons\NPC_Dummy_Store_Standing.dds</Icon>
+            <Description>An NPC Merchant Trader standing and holding a datapad. Has Store functionality. NOTE: Does NOT use conveyors!</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="2" y="4" z="2" />
+            <ModelOffset x="0" y="0.25" z="0" />
+            <Model>Models\Store_Standing\NPC_Dummies_Store_Standing.mwm</Model>
+            <Components>
+				<Component Subtype="RestrictedConstruction" Count="10" />
+                <Component Subtype="SteelPlate" Count="10" />
+                <Component Subtype="Construction" Count="5" />
+                <Component Subtype="Motor" Count="4" />
+                <Component Subtype="Display" Count="1" />
+                <Component Subtype="Computer" Count="5" />
+                <Component Subtype="SteelPlate" Count="5" />
+            </Components>
+            <CriticalComponent Subtype="RestrictedConstruction" Index="0" />
+            <ScreenAreas>
+                <ScreenArea Name="StoreScreen_01" DisplayName="DisplayName_Screen_Large" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+            </ScreenAreas>
+            <BlockPairName>NPC_Shop_Market_Store_Standing</BlockPairName>
+            <BuildTimeSeconds>5</BuildTimeSeconds>
+			<MaxScreenRenderDistance>120</MaxScreenRenderDistance>
+			<GuiVisible>false</GuiVisible>
+            <ResourceSinkGroup>Conveyors</ResourceSinkGroup>
+            <RequiredPowerInput>0.002</RequiredPowerInput>
+            <InventorySize>
+                <X>2.5</X>
+                <Y>2.5</Y>
+                <Z>1</Z>
+            </InventorySize>
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0.27" StartY="0.27" EndX="0.73" EndY="0.73" Default="true"/>
+            </MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.5" File="Models\Store_Standing\NPC_Dummies_Store_Standing_BS1.mwm"/>
+				<Model BuildPercentUpperBound="1.0" File="Models\Store_Standing\NPC_Dummies_Store_Standing_BS2.mwm"/>
+			</BuildProgressModels>
+			<MirroringZ>Y</MirroringZ>
+			<MirroringY>Z</MirroringY>
+			<PCU>10</PCU>
+			<IsAirTight>false</IsAirTight>
+        </Definition>
+	</CubeBlocks>
+</Definitions>
