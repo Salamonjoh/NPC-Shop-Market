@@ -1,4 +1,4 @@
-A fork of diK's "Store Block - Create your own Trade Station" mod.
+A fork of the "Store Block - Create your own Trade Station" mod.
 
 Implements multiple Admin-Only Store blocks that can be used for trading. NPC Dummy versions with models from Decorative Pack 1 DLC are included as well for those who want an NPC shop feel.
 
